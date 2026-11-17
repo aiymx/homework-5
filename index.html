@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
 </head>
 <body>
     
@@ -48,9 +48,9 @@
     </section>
 
     <section id="contact">
-<h3>
+<h2>
     Связаться со мной
-</h3>
+</h2>
 
 <p>
     Заполните форму ниже, чтобы отправить мне сообщение. Я свяжусь с вами в ближайшее время.
@@ -69,7 +69,7 @@
 
 <div>
     <label for="select">Выберите тему</label>
-<select id="select">
+<select id="select" name="direction">
     <option value="option1">Frontend</option>
     <option value="option2">Backend</option>
     <option value="option3">Design</option>
@@ -78,12 +78,13 @@
 
 <div>
    <label for="message">Сообщение</label>
-<textarea id="message" required placeholder="Введите сообщение"></textarea>
+<textarea id="message" name="message" required placeholder="Введите сообщение"></textarea>
 </div>
 
   <button type="submit">Отправить</button>
 
 </form>
+    </section>
 </main>
 
 </body>
